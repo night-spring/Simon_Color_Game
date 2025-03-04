@@ -1,0 +1,51 @@
+
+.container{
+    text-align: center;
+    padding: 20px;
+}
+
+.game {
+    display: grid;
+    grid-template-columns: repeat(2, auto);
+    grid-gap: 40px;
+    justify-content: center;
+    align-items: center;
+}
+
+.btn {
+    width: 200px;
+    height: 200px;
+    border: 10px solid black;
+    border-radius: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+#green {
+    background-color: green;
+}
+
+#red {
+    background-color: red;
+}
+
+#yellow {
+    background-color: yellow;
+}
+
+#blue {
+    background-color: blue;
+}
+
+.flash {
+    background-color: white !important;
+    transition: background-color 0.2s;
+}
+
+.gameovr {
+    background-color: red !important;
+    transition: background-color 0.2s;
+}
